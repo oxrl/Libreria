@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { AddLibroComponent } from './componentes/libros/add-libro/add-libro.component';
+import { ListLibroComponent } from './componentes/libros/list-libro/list-libro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddLibroComponent
+    ListLibroComponent
   ],
   imports: [
     BrowserModule,

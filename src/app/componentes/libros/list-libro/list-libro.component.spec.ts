@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AddLibroComponent } from './add-libro.component';
+import { ListLibroComponent } from './list-libro.component';
 
-describe('AddLibroComponent', () => {
-  let component: AddLibroComponent;
-  let fixture: ComponentFixture<AddLibroComponent>;
+describe('ListLibroComponent', () => {
+  let component: ListLibroComponent;
+  let fixture: ComponentFixture<ListLibroComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AddLibroComponent ]
+      declarations: [ ListLibroComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AddLibroComponent);
+    fixture = TestBed.createComponent(ListLibroComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
